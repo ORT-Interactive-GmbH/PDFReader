@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1E06F5901A70611B00F9172E /* DeOrtinteractivePdfreaderReaderProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E06F58E1A70611B00F9172E /* DeOrtinteractivePdfreaderReaderProxy.h */; };
+		1E06F5911A70611B00F9172E /* DeOrtinteractivePdfreaderReaderProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E06F58F1A70611B00F9172E /* DeOrtinteractivePdfreaderReaderProxy.m */; };
+		1EEE91EA1A70603F007F378B /* CGPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91C21A70603F007F378B /* CGPDFDocument.h */; };
+		1EEE91EB1A70603F007F378B /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91C31A70603F007F378B /* CGPDFDocument.m */; };
+		1EEE91EC1A70603F007F378B /* ReaderConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91C41A70603F007F378B /* ReaderConstants.h */; };
+		1EEE91ED1A70603F007F378B /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91C51A70603F007F378B /* ReaderConstants.m */; };
+		1EEE91EE1A70603F007F378B /* ReaderContentPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91C61A70603F007F378B /* ReaderContentPage.h */; };
+		1EEE91EF1A70603F007F378B /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91C71A70603F007F378B /* ReaderContentPage.m */; };
+		1EEE91F01A70603F007F378B /* ReaderContentTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91C81A70603F007F378B /* ReaderContentTile.h */; };
+		1EEE91F11A70603F007F378B /* ReaderContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91C91A70603F007F378B /* ReaderContentTile.m */; };
+		1EEE91F21A70603F007F378B /* ReaderContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91CA1A70603F007F378B /* ReaderContentView.h */; };
+		1EEE91F31A70603F007F378B /* ReaderContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91CB1A70603F007F378B /* ReaderContentView.m */; };
+		1EEE91F41A70603F007F378B /* ReaderDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91CC1A70603F007F378B /* ReaderDocument.h */; };
+		1EEE91F51A70603F007F378B /* ReaderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91CD1A70603F007F378B /* ReaderDocument.m */; };
+		1EEE91F61A70603F007F378B /* ReaderDocumentOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91CE1A70603F007F378B /* ReaderDocumentOutline.h */; };
+		1EEE91F71A70603F007F378B /* ReaderDocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91CF1A70603F007F378B /* ReaderDocumentOutline.m */; };
+		1EEE91F81A70603F007F378B /* ReaderMainPagebar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91D01A70603F007F378B /* ReaderMainPagebar.h */; };
+		1EEE91F91A70603F007F378B /* ReaderMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91D11A70603F007F378B /* ReaderMainPagebar.m */; };
+		1EEE91FA1A70603F007F378B /* ReaderMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91D21A70603F007F378B /* ReaderMainToolbar.h */; };
+		1EEE91FB1A70603F007F378B /* ReaderMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91D31A70603F007F378B /* ReaderMainToolbar.m */; };
+		1EEE91FC1A70603F007F378B /* ReaderThumbCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91D41A70603F007F378B /* ReaderThumbCache.h */; };
+		1EEE91FD1A70603F007F378B /* ReaderThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91D51A70603F007F378B /* ReaderThumbCache.m */; };
+		1EEE91FE1A70603F007F378B /* ReaderThumbFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91D61A70603F007F378B /* ReaderThumbFetch.h */; };
+		1EEE91FF1A70603F007F378B /* ReaderThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91D71A70603F007F378B /* ReaderThumbFetch.m */; };
+		1EEE92001A70603F007F378B /* ReaderThumbQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91D81A70603F007F378B /* ReaderThumbQueue.h */; };
+		1EEE92011A70603F007F378B /* ReaderThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91D91A70603F007F378B /* ReaderThumbQueue.m */; };
+		1EEE92021A70603F007F378B /* ReaderThumbRender.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91DA1A70603F007F378B /* ReaderThumbRender.h */; };
+		1EEE92031A70603F007F378B /* ReaderThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91DB1A70603F007F378B /* ReaderThumbRender.m */; };
+		1EEE92041A70603F007F378B /* ReaderThumbRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91DC1A70603F007F378B /* ReaderThumbRequest.h */; };
+		1EEE92051A70603F007F378B /* ReaderThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91DD1A70603F007F378B /* ReaderThumbRequest.m */; };
+		1EEE92061A70603F007F378B /* ReaderThumbsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91DE1A70603F007F378B /* ReaderThumbsView.h */; };
+		1EEE92071A70603F007F378B /* ReaderThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91DF1A70603F007F378B /* ReaderThumbsView.m */; };
+		1EEE92081A70603F007F378B /* ReaderThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91E01A70603F007F378B /* ReaderThumbView.h */; };
+		1EEE92091A70603F007F378B /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91E11A70603F007F378B /* ReaderThumbView.m */; };
+		1EEE920A1A70603F007F378B /* ReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91E21A70603F007F378B /* ReaderViewController.h */; };
+		1EEE920B1A70603F007F378B /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91E31A70603F007F378B /* ReaderViewController.m */; };
+		1EEE920C1A70603F007F378B /* ThumbsMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91E41A70603F007F378B /* ThumbsMainToolbar.h */; };
+		1EEE920D1A70603F007F378B /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91E51A70603F007F378B /* ThumbsMainToolbar.m */; };
+		1EEE920E1A70603F007F378B /* ThumbsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91E61A70603F007F378B /* ThumbsViewController.h */; };
+		1EEE920F1A70603F007F378B /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91E71A70603F007F378B /* ThumbsViewController.m */; };
+		1EEE92101A70603F007F378B /* UIXToolbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE91E81A70603F007F378B /* UIXToolbarView.h */; };
+		1EEE92111A70603F007F378B /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE91E91A70603F007F378B /* UIXToolbarView.m */; };
+		1EEE92131A7060B7007F378B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEE92121A7060B7007F378B /* MessageUI.framework */; };
+		1EEE92151A7060BC007F378B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEE92141A7060BC007F378B /* ImageIO.framework */; };
+		1EEE92171A7060C2007F378B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEE92161A7060C2007F378B /* QuartzCore.framework */; };
+		1EEE92191A7060C8007F378B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEE92181A7060C8007F378B /* CoreGraphics.framework */; };
+		1EEE921B1A7060CD007F378B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEE921A1A7060CD007F378B /* UIKit.framework */; };
+		1EEE921E1A7060EB007F378B /* DeOrtinteractivePdfreaderReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEE921C1A7060EB007F378B /* DeOrtinteractivePdfreaderReader.h */; };
+		1EEE921F1A7060EB007F378B /* DeOrtinteractivePdfreaderReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE921D1A7060EB007F378B /* DeOrtinteractivePdfreaderReader.m */; };
+		24DD6CF91134B3F500162E58 /* DeOrtinteractivePdfreaderModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* DeOrtinteractivePdfreaderModule.h */; };
+		24DD6CFA1134B3F500162E58 /* DeOrtinteractivePdfreaderModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* DeOrtinteractivePdfreaderModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* DeOrtinteractivePdfreaderModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* DeOrtinteractivePdfreaderModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* DeOrtinteractivePdfreaderModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* DeOrtinteractivePdfreaderModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* DeOrtinteractivePdfreader_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* DeOrtinteractivePdfreader_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = PDFReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E06F58E1A70611B00F9172E /* DeOrtinteractivePdfreaderReaderProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeOrtinteractivePdfreaderReaderProxy.h; path = Classes/DeOrtinteractivePdfreaderReaderProxy.h; sourceTree = "<group>"; };
+		1E06F58F1A70611B00F9172E /* DeOrtinteractivePdfreaderReaderProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeOrtinteractivePdfreaderReaderProxy.m; path = Classes/DeOrtinteractivePdfreaderReaderProxy.m; sourceTree = "<group>"; };
+		1EEE91C21A70603F007F378B /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPDFDocument.h; sourceTree = "<group>"; };
+		1EEE91C31A70603F007F378B /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPDFDocument.m; sourceTree = "<group>"; };
+		1EEE91C41A70603F007F378B /* ReaderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderConstants.h; sourceTree = "<group>"; };
+		1EEE91C51A70603F007F378B /* ReaderConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderConstants.m; sourceTree = "<group>"; };
+		1EEE91C61A70603F007F378B /* ReaderContentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentPage.h; sourceTree = "<group>"; };
+		1EEE91C71A70603F007F378B /* ReaderContentPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentPage.m; sourceTree = "<group>"; };
+		1EEE91C81A70603F007F378B /* ReaderContentTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentTile.h; sourceTree = "<group>"; };
+		1EEE91C91A70603F007F378B /* ReaderContentTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentTile.m; sourceTree = "<group>"; };
+		1EEE91CA1A70603F007F378B /* ReaderContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentView.h; sourceTree = "<group>"; };
+		1EEE91CB1A70603F007F378B /* ReaderContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentView.m; sourceTree = "<group>"; };
+		1EEE91CC1A70603F007F378B /* ReaderDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderDocument.h; sourceTree = "<group>"; };
+		1EEE91CD1A70603F007F378B /* ReaderDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderDocument.m; sourceTree = "<group>"; };
+		1EEE91CE1A70603F007F378B /* ReaderDocumentOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderDocumentOutline.h; sourceTree = "<group>"; };
+		1EEE91CF1A70603F007F378B /* ReaderDocumentOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderDocumentOutline.m; sourceTree = "<group>"; };
+		1EEE91D01A70603F007F378B /* ReaderMainPagebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderMainPagebar.h; sourceTree = "<group>"; };
+		1EEE91D11A70603F007F378B /* ReaderMainPagebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderMainPagebar.m; sourceTree = "<group>"; };
+		1EEE91D21A70603F007F378B /* ReaderMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderMainToolbar.h; sourceTree = "<group>"; };
+		1EEE91D31A70603F007F378B /* ReaderMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderMainToolbar.m; sourceTree = "<group>"; };
+		1EEE91D41A70603F007F378B /* ReaderThumbCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbCache.h; sourceTree = "<group>"; };
+		1EEE91D51A70603F007F378B /* ReaderThumbCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbCache.m; sourceTree = "<group>"; };
+		1EEE91D61A70603F007F378B /* ReaderThumbFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbFetch.h; sourceTree = "<group>"; };
+		1EEE91D71A70603F007F378B /* ReaderThumbFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbFetch.m; sourceTree = "<group>"; };
+		1EEE91D81A70603F007F378B /* ReaderThumbQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbQueue.h; sourceTree = "<group>"; };
+		1EEE91D91A70603F007F378B /* ReaderThumbQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbQueue.m; sourceTree = "<group>"; };
+		1EEE91DA1A70603F007F378B /* ReaderThumbRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbRender.h; sourceTree = "<group>"; };
+		1EEE91DB1A70603F007F378B /* ReaderThumbRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbRender.m; sourceTree = "<group>"; };
+		1EEE91DC1A70603F007F378B /* ReaderThumbRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbRequest.h; sourceTree = "<group>"; };
+		1EEE91DD1A70603F007F378B /* ReaderThumbRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbRequest.m; sourceTree = "<group>"; };
+		1EEE91DE1A70603F007F378B /* ReaderThumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbsView.h; sourceTree = "<group>"; };
+		1EEE91DF1A70603F007F378B /* ReaderThumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbsView.m; sourceTree = "<group>"; };
+		1EEE91E01A70603F007F378B /* ReaderThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbView.h; sourceTree = "<group>"; };
+		1EEE91E11A70603F007F378B /* ReaderThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbView.m; sourceTree = "<group>"; };
+		1EEE91E21A70603F007F378B /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		1EEE91E31A70603F007F378B /* ReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		1EEE91E41A70603F007F378B /* ThumbsMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsMainToolbar.h; sourceTree = "<group>"; };
+		1EEE91E51A70603F007F378B /* ThumbsMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsMainToolbar.m; sourceTree = "<group>"; };
+		1EEE91E61A70603F007F378B /* ThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsViewController.h; sourceTree = "<group>"; };
+		1EEE91E71A70603F007F378B /* ThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsViewController.m; sourceTree = "<group>"; };
+		1EEE91E81A70603F007F378B /* UIXToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXToolbarView.h; sourceTree = "<group>"; };
+		1EEE91E91A70603F007F378B /* UIXToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXToolbarView.m; sourceTree = "<group>"; };
+		1EEE92121A7060B7007F378B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1EEE92141A7060BC007F378B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1EEE92161A7060C2007F378B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1EEE92181A7060C8007F378B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1EEE921A1A7060CD007F378B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1EEE921C1A7060EB007F378B /* DeOrtinteractivePdfreaderReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeOrtinteractivePdfreaderReader.h; path = Classes/DeOrtinteractivePdfreaderReader.h; sourceTree = "<group>"; };
+		1EEE921D1A7060EB007F378B /* DeOrtinteractivePdfreaderReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeOrtinteractivePdfreaderReader.m; path = Classes/DeOrtinteractivePdfreaderReader.m; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* DeOrtinteractivePdfreaderModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeOrtinteractivePdfreaderModule.h; path = Classes/DeOrtinteractivePdfreaderModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* DeOrtinteractivePdfreaderModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeOrtinteractivePdfreaderModule.m; path = Classes/DeOrtinteractivePdfreaderModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* DeOrtinteractivePdfreaderModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeOrtinteractivePdfreaderModuleAssets.h; path = Classes/DeOrtinteractivePdfreaderModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* DeOrtinteractivePdfreaderModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeOrtinteractivePdfreaderModuleAssets.m; path = Classes/DeOrtinteractivePdfreaderModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* DeOrtinteractivePdfreader_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeOrtinteractivePdfreader_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libDeOrtinteractivePdfreader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDeOrtinteractivePdfreader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEE921B1A7060CD007F378B /* UIKit.framework in Frameworks */,
+				1EEE92191A7060C8007F378B /* CoreGraphics.framework in Frameworks */,
+				1EEE92171A7060C2007F378B /* QuartzCore.framework in Frameworks */,
+				1EEE92151A7060BC007F378B /* ImageIO.framework in Frameworks */,
+				1EEE92131A7060B7007F378B /* MessageUI.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libDeOrtinteractivePdfreader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* PDFReader */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = PDFReader;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE921A1A7060CD007F378B /* UIKit.framework */,
+				1EEE92181A7060C8007F378B /* CoreGraphics.framework */,
+				1EEE92161A7060C2007F378B /* QuartzCore.framework */,
+				1EEE92141A7060BC007F378B /* ImageIO.framework */,
+				1EEE92121A7060B7007F378B /* MessageUI.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE91C11A70603F007F378B /* PDF */,
+				24DE9E0F11C5FE74003F90F6 /* DeOrtinteractivePdfreaderModuleAssets.h */,
+				1E06F58E1A70611B00F9172E /* DeOrtinteractivePdfreaderReaderProxy.h */,
+				1E06F58F1A70611B00F9172E /* DeOrtinteractivePdfreaderReaderProxy.m */,
+				24DE9E1011C5FE74003F90F6 /* DeOrtinteractivePdfreaderModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* DeOrtinteractivePdfreaderModule.h */,
+				24DD6CF81134B3F500162E58 /* DeOrtinteractivePdfreaderModule.m */,
+				1EEE921C1A7060EB007F378B /* DeOrtinteractivePdfreaderReader.h */,
+				1EEE921D1A7060EB007F378B /* DeOrtinteractivePdfreaderReader.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1EEE91C11A70603F007F378B /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE91C21A70603F007F378B /* CGPDFDocument.h */,
+				1EEE91C31A70603F007F378B /* CGPDFDocument.m */,
+				1EEE91C41A70603F007F378B /* ReaderConstants.h */,
+				1EEE91C51A70603F007F378B /* ReaderConstants.m */,
+				1EEE91C61A70603F007F378B /* ReaderContentPage.h */,
+				1EEE91C71A70603F007F378B /* ReaderContentPage.m */,
+				1EEE91C81A70603F007F378B /* ReaderContentTile.h */,
+				1EEE91C91A70603F007F378B /* ReaderContentTile.m */,
+				1EEE91CA1A70603F007F378B /* ReaderContentView.h */,
+				1EEE91CB1A70603F007F378B /* ReaderContentView.m */,
+				1EEE91CC1A70603F007F378B /* ReaderDocument.h */,
+				1EEE91CD1A70603F007F378B /* ReaderDocument.m */,
+				1EEE91CE1A70603F007F378B /* ReaderDocumentOutline.h */,
+				1EEE91CF1A70603F007F378B /* ReaderDocumentOutline.m */,
+				1EEE91D01A70603F007F378B /* ReaderMainPagebar.h */,
+				1EEE91D11A70603F007F378B /* ReaderMainPagebar.m */,
+				1EEE91D21A70603F007F378B /* ReaderMainToolbar.h */,
+				1EEE91D31A70603F007F378B /* ReaderMainToolbar.m */,
+				1EEE91D41A70603F007F378B /* ReaderThumbCache.h */,
+				1EEE91D51A70603F007F378B /* ReaderThumbCache.m */,
+				1EEE91D61A70603F007F378B /* ReaderThumbFetch.h */,
+				1EEE91D71A70603F007F378B /* ReaderThumbFetch.m */,
+				1EEE91D81A70603F007F378B /* ReaderThumbQueue.h */,
+				1EEE91D91A70603F007F378B /* ReaderThumbQueue.m */,
+				1EEE91DA1A70603F007F378B /* ReaderThumbRender.h */,
+				1EEE91DB1A70603F007F378B /* ReaderThumbRender.m */,
+				1EEE91DC1A70603F007F378B /* ReaderThumbRequest.h */,
+				1EEE91DD1A70603F007F378B /* ReaderThumbRequest.m */,
+				1EEE91DE1A70603F007F378B /* ReaderThumbsView.h */,
+				1EEE91DF1A70603F007F378B /* ReaderThumbsView.m */,
+				1EEE91E01A70603F007F378B /* ReaderThumbView.h */,
+				1EEE91E11A70603F007F378B /* ReaderThumbView.m */,
+				1EEE91E21A70603F007F378B /* ReaderViewController.h */,
+				1EEE91E31A70603F007F378B /* ReaderViewController.m */,
+				1EEE91E41A70603F007F378B /* ThumbsMainToolbar.h */,
+				1EEE91E51A70603F007F378B /* ThumbsMainToolbar.m */,
+				1EEE91E61A70603F007F378B /* ThumbsViewController.h */,
+				1EEE91E71A70603F007F378B /* ThumbsViewController.m */,
+				1EEE91E81A70603F007F378B /* UIXToolbarView.h */,
+				1EEE91E91A70603F007F378B /* UIXToolbarView.m */,
+			);
+			name = PDF;
+			path = Classes/PDF;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* DeOrtinteractivePdfreader_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E06F5901A70611B00F9172E /* DeOrtinteractivePdfreaderReaderProxy.h in Headers */,
+				1EEE91F01A70603F007F378B /* ReaderContentTile.h in Headers */,
+				1EEE921E1A7060EB007F378B /* DeOrtinteractivePdfreaderReader.h in Headers */,
+				1EEE91EA1A70603F007F378B /* CGPDFDocument.h in Headers */,
+				1EEE91F21A70603F007F378B /* ReaderContentView.h in Headers */,
+				1EEE91F81A70603F007F378B /* ReaderMainPagebar.h in Headers */,
+				1EEE91FA1A70603F007F378B /* ReaderMainToolbar.h in Headers */,
+				1EEE91FE1A70603F007F378B /* ReaderThumbFetch.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* DeOrtinteractivePdfreader_Prefix.pch in Headers */,
+				1EEE91FC1A70603F007F378B /* ReaderThumbCache.h in Headers */,
+				1EEE91EC1A70603F007F378B /* ReaderConstants.h in Headers */,
+				1EEE91F61A70603F007F378B /* ReaderDocumentOutline.h in Headers */,
+				24DD6CF91134B3F500162E58 /* DeOrtinteractivePdfreaderModule.h in Headers */,
+				1EEE91EE1A70603F007F378B /* ReaderContentPage.h in Headers */,
+				1EEE92081A70603F007F378B /* ReaderThumbView.h in Headers */,
+				1EEE920C1A70603F007F378B /* ThumbsMainToolbar.h in Headers */,
+				1EEE92021A70603F007F378B /* ReaderThumbRender.h in Headers */,
+				1EEE920A1A70603F007F378B /* ReaderViewController.h in Headers */,
+				1EEE92101A70603F007F378B /* UIXToolbarView.h in Headers */,
+				1EEE920E1A70603F007F378B /* ThumbsViewController.h in Headers */,
+				1EEE92061A70603F007F378B /* ReaderThumbsView.h in Headers */,
+				1EEE91F41A70603F007F378B /* ReaderDocument.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* DeOrtinteractivePdfreaderModuleAssets.h in Headers */,
+				1EEE92001A70603F007F378B /* ReaderThumbQueue.h in Headers */,
+				1EEE92041A70603F007F378B /* ReaderThumbRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* PDFReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "PDFReader" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFReader;
+			productName = PDFReader;
+			productReference = D2AAC07E0554694100DB518D /* libDeOrtinteractivePdfreader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "PDFReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* PDFReader */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* PDFReader */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEE92071A70603F007F378B /* ReaderThumbsView.m in Sources */,
+				1EEE920D1A70603F007F378B /* ThumbsMainToolbar.m in Sources */,
+				1EEE91FD1A70603F007F378B /* ReaderThumbCache.m in Sources */,
+				1EEE92091A70603F007F378B /* ReaderThumbView.m in Sources */,
+				1EEE91F11A70603F007F378B /* ReaderContentTile.m in Sources */,
+				1EEE91EF1A70603F007F378B /* ReaderContentPage.m in Sources */,
+				1EEE91ED1A70603F007F378B /* ReaderConstants.m in Sources */,
+				1E06F5911A70611B00F9172E /* DeOrtinteractivePdfreaderReaderProxy.m in Sources */,
+				1EEE91F71A70603F007F378B /* ReaderDocumentOutline.m in Sources */,
+				1EEE91F91A70603F007F378B /* ReaderMainPagebar.m in Sources */,
+				1EEE91FF1A70603F007F378B /* ReaderThumbFetch.m in Sources */,
+				1EEE92031A70603F007F378B /* ReaderThumbRender.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* DeOrtinteractivePdfreaderModule.m in Sources */,
+				1EEE91F31A70603F007F378B /* ReaderContentView.m in Sources */,
+				1EEE92111A70603F007F378B /* UIXToolbarView.m in Sources */,
+				1EEE92011A70603F007F378B /* ReaderThumbQueue.m in Sources */,
+				1EEE920B1A70603F007F378B /* ReaderViewController.m in Sources */,
+				1EEE92051A70603F007F378B /* ReaderThumbRequest.m in Sources */,
+				1EEE91F51A70603F007F378B /* ReaderDocument.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* DeOrtinteractivePdfreaderModuleAssets.m in Sources */,
+				1EEE91EB1A70603F007F378B /* CGPDFDocument.m in Sources */,
+				1EEE91FB1A70603F007F378B /* ReaderMainToolbar.m in Sources */,
+				1EEE921F1A7060EB007F378B /* DeOrtinteractivePdfreaderReader.m in Sources */,
+				1EEE920F1A70603F007F378B /* ThumbsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* PDFReader */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/DeOrtinteractivePdfreader.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DeOrtinteractivePdfreader_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = DeOrtinteractivePdfreader;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/DeOrtinteractivePdfreader.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DeOrtinteractivePdfreader_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = DeOrtinteractivePdfreader;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/DeOrtinteractivePdfreader.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DeOrtinteractivePdfreader_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = DeOrtinteractivePdfreader;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/DeOrtinteractivePdfreader.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DeOrtinteractivePdfreader_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = DeOrtinteractivePdfreader;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "PDFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "PDFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
