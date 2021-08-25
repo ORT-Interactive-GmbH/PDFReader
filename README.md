@@ -4,12 +4,12 @@
 <img src="https://img.shields.io/badge/64bit-support-green.svg">
 [![License](http://img.shields.io/badge/license-MIT-orange.svg)](http://mit-license.org)
 
-
 ## Overview
 
 This module is a more advanced PDF Reader than the standard Quicklook PDF reader that comes with Titanium / iOS.
 
 ### Features
+
 * Page Thumbnails
 * High performance
 * Horizontal scrolling
@@ -17,13 +17,16 @@ This module is a more advanced PDF Reader than the standard Quicklook PDF reader
 * Open password protected PDFs
 
 ### Upcoming features
+
 * Configurable thumbnail size
 * Bookmark pages
 * Event listeners
 
-
 ## Installation
-### Get it [![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/de.ortinteractive.pdfreader)
+
+### Get it 
+
+[![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/de.ortinteractive.pdfreader)
 Download the latest distribution ZIP-file and consult the [Titanium Documentation](http://docs.appcelerator.com/titanium/latest/#!/guide/Using_a_Module) on how install it, or simply use the [gitTio CLI](http://gitt.io/cli):
 
 `$ gittio install de.ortinteractive.pdfreader`
@@ -40,24 +43,26 @@ Download the latest distribution ZIP-file and consult the [Titanium Documentatio
    		* `password` _(String)_ - The password to use for the PDF file (optional)
    		
 ## Example
-```javascript
-var pdfReader = require("de.ortinteractive.pdfreader" );
-var reader = pdfReader.createReader({
-	top: 0,
-	left: 0,
-	width: Ti.UI.FILL,
-	height: Ti.UI.FILL,
-	pdf: Ti.Filesystem.getFile( Ti.Filesystem.resourcesDirectory , "sample.pdf" ).resolve(),
-	password: ""
+
+```js
+import PDFReader from 'de.ortinteractive.pdfreader';
+
+const window = Ti.UI.createWindow();
+
+const reader = PDFReader.createReader({
+    pdf: Ti.Filesystem.getFile(Ti.Filesystem.resourcesDirectory , 'sample.pdf'),
+    password: ''
 });
+
+window.add(reader);
+window.open();
 ```
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2015 ORT interactive GmbH
-
+Copyright (c) 2015-present ORT interactive GmbH
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

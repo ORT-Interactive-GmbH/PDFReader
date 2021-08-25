@@ -30,3 +30,4 @@ build/
 
 */titanium.xcconfig
 */build.py
+/iphone/dist
